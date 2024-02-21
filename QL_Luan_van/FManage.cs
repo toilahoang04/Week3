@@ -19,8 +19,8 @@ namespace QL_Luan_van
 
         private void btnNextPage_Click(object sender, EventArgs e)
         {
-            this.Hide();
             FNextPage fNextPage = new FNextPage();
+            this.Hide();
             fNextPage.Show();
         }
     }
