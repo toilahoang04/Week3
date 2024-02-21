@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace QL_Luan_van
 {
-    public partial class FManage : Form
+    public partial class FNextPage : Form
     {
-        public FManage()
+        public FNextPage()
         {
             InitializeComponent();
-        }
-
-        private void btnNextPage_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            FNextPage fNextPage = new FNextPage();
-            fNextPage.Show();
         }
     }
 }
