@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+//dang trieu da den day
 namespace QL_Luan_van
 {
     internal static class Program
